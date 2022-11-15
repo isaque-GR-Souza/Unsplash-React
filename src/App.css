@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.minhadiv{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 7%;
+  box-shadow: 1px 1px 5px grey;
+  padding: 10px;
+}
+
+.galeria{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.galeria img{
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px grey;
+}
+
+.item{
+  width: 30% ;
+  margin: 20px;
+}
+
+.minhadiv span{
+  font-size: 20px;
+}
+
+.minhadiv input{
+  border-radius: 50px;
+  border: none;
+  background: #cdcdc0;
+  padding: 0.5rem 1rem;
+}
+
+.minhadiv button{
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  transition: 0.5s all ease-out;
+  font-size: 17px;
+}
+
+.minhadiv button:hover{
+  transition: 0.5s all ease-out;
+  background: rgb(104, 103, 103);
+  color: #fff;
+}
